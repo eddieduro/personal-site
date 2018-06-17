@@ -10,5 +10,8 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-jss": "^8.5.1"
+  },
+  "devDependencies": {
+    "cypress": "^3.0.1"
   }
 }

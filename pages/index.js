@@ -7,7 +7,10 @@ export default () => (
   <div>
     <Head title="Home" />
     <Hero>
-      Eddie Duro
+      <div>
+        <h1>Eddie Duro</h1>
+        <span>Programmer, Sneakerhead, Creative.</span>
+      </div>
     </Hero>
     <Nav />
   </div>

@@ -18,14 +18,21 @@ const styles = {
             color: 'white',
             fontFamily: ['Titillium Web', 'sans-serif'],
             fontSize: '72px',
-            fontWeight: '600'
+            fontWeight: '600',
+            margin: 0
+        },
+        '& span': {
+            color: 'white',
+            fontFamily: ['Titillium Web', 'sans-serif'],
+            fontSize: '24px',
+            fontWeight: '400'
         },
     }
 }
 
 const Hero = ({ classes, children }) => (
     <div className={classes.hero}>
-        <h1>{children}</h1>
+        {children}
     </div>
 )
 const StyledHero = injectSheet(styles)(Hero)
