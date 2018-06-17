@@ -8,7 +8,7 @@ export default () => (
     <Head title="Home" />
     <Hero>
       <div>
-        <h1>Eddie Duro</h1>
+        <h1 data-testid="Hero__title">Eddie Duro</h1>
         <span>Programmer, Sneakerhead, Creative.</span>
       </div>
     </Hero>
