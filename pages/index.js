@@ -1,17 +1,17 @@
-import Head from '../components/head'
-import Nav from '../components/nav'
-import Hero from '../components/hero/index'
-// import Link from 'next/link'
+import React, {Component} from 'react'
 
-export default () => (
-  <div>
-    <Head title="Home" />
-    <Hero>
-      <div>
-        <h1 data-testid="Hero__title">Eddie Duro</h1>
-        <span>Programmer, Sneakerhead, Creative.</span>
-      </div>
-    </Hero>
-    <Nav />
-  </div>
-)
+import Home from './home/index'
+
+export default class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+    render() {
+        return (
+            <div className="app">
+                <Home />
+            </div>
+        )
+    }
+}
